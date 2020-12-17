@@ -1,0 +1,6 @@
+<% if (error) { %>
+<p style="color: red; font-size: small"><%- error %></p>
+<% } %> <% if (flashMessages) { %> <% if (flashMessages.success) { %>
+<p style="color: red; font-size: small">
+  <%- flashMessages.success %> <% }} %>
+</p>
